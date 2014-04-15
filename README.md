@@ -1,4 +1,3 @@
-
 # OpenEars / Cordova plugin
 
 This is a PhoneGap/Cordova plugin for OpenEars:
@@ -77,8 +76,10 @@ Build & Run from Xcode onto your device and you should see a pretty basic listen
 ## Using the plugin in your own app:
 
 For the full Javascript interface, see:
-[OpenEars.coffee](`OpenEars/www/OpenEars.coffee.md`) 
+[OpenEars.coffee](OpenEars/www/OpenEars.coffee.md) 
 
+For just the demo app usage, see:
+[index.coffee](demo/www/js/index.coffee.md) 
 
 
 
