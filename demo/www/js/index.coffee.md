@@ -1,7 +1,9 @@
-
 # Demo App for OpenEars on Cordova
 
 Requires jQuery
+
+This si teh cioffeescript version, see [here](index.js) for the raw javascript.
+
 
 
 Wait for documet & device ready...
