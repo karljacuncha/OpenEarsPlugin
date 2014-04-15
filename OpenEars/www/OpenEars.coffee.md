@@ -2,7 +2,7 @@
 
 The Javascript side is managed through (literate) Coffeescript, just because I like that sort of thing
 http://coffeescript.org/#literate
-You can safely ignore/delte this file and go straight to the JS if you like, but this should be more
+You can safely ignore/delte this file and go straight to the JS [here](OpenEars.js) if you like, but this should be more
 readable for getting started and finding out what's going on.
 
 Again, names normalised for re-use on other platforms/swapping of engines
