@@ -36,15 +36,18 @@ If anything bad happens, just trigger an error with the message and let the call
 ## Language Generator:
 			
 Generate a language model from a CSV list of words to phrases to recognise, eg:
+
 START,STOP,LEFT,RIGHT
+
 The callback args is a dict of the language model & dictionary path & filenames.
+
 eg:
-{
+```{
 	DictionaryFile: "FirstOpenEarsDynamicLanguageModel.dic",
 	DictionaryPath: " *[path to your app]* /Library/Caches/FirstOpenEarsDynamicLanguageModel.dic",
 	LMFile: "FirstOpenEarsDynamicLanguageModel.DMP",
 	LMPath: " *[path to your app]* /Library/Caches/FirstOpenEarsDynamicLanguageModel.DMP"
-}
+}```
 
 
 		generateLanguageModel: (languageName, languageCSV) ->
