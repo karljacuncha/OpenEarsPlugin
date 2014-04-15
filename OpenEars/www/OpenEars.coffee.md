@@ -100,6 +100,9 @@ eg:
 			exec(success, genericHandleError, "OpenEars", "say", [phrase])
 
 
+## Events, called from the Obj-C...
+
+
 		events: {
 			startedListening: () ->
 				trigger "startedListening"
