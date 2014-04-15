@@ -1,0 +1,10 @@
+.project
+.DS_Store
+OpenEars/src/ios/Framework/AcousticModelEnglish.bundle
+OpenEars/src/ios/Framework/AcousticModelSpanish.bundle
+OpenEars/src/ios/Framework/OpenEars.framework
+OpenEars/src/ios/Framework/Slt.framework
+demo/platforms/ios
+demo/plugins/com.skytek.cordova.openears
+demo/plugins/ios.json
+

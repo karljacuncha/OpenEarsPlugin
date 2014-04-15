@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.skytek.cordova.openears"
+        version="0.1"
+        xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <name>OpenEars</name>
+    
+    <js-module name="OpenEars"
+               src="www/OpenEars.js">
+        <clobbers target="cordova.plugins.OpenEars" />
+    </js-module>
+    
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="OpenEars">
+                <param name="ios-package" value="CDVOpenEars" />
+            </feature>
+        </config-file>
+        
+        <header-file src="src/ios/CDVOpenEars.h" />
+        <source-file src="src/ios/CDVOpenEars.m" />
+
+        <resource-file src="src/ios/Framework/AcousticModelEnglish.bundle" />
+        <resource-file src="src/ios/Framework/AcousticModelSpanish.bundle" />
+        
+        <framework src="src/ios/Framework/OpenEars.framework" />
+        <framework src="src/ios/Framework/Slt.framework" />
+
+        <framework src="AVFoundation.framework" />
+        <framework src="AudioToolbox.framework" />
+
+    </platform>
+</plugin>
